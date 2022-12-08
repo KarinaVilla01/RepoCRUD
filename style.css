@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1{
+    font-weight: 300;
+}
+
+.container{
+    width: 100%;
+    height: calc(100vh - 10px);
+    display: flex;
+    justify-content: center;
+}
+/* ESTILOS DE FORMULARIO */
+.container .div-formulario{
+    width: 50%;
+    height: 250px;
+    margin: 15px;
+    background-color: rgb(141, 187, 201);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0,0,0,0.3);
+}
+
+.container .div-formulario h2{
+    margin: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.container .div-formulario form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .div-formulario form input,
+.container .div-formulario form button{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* ESTILOS DE LISTADO */
+#listado {
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px;
+    background-color: rgb(187, 109, 180);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(65, 62, 78, 0.3);
+}
+
+#listado b{
+    margin-top: 10px;
+    font-weight: 300;
+    color:whitesmoke;
+}
+
+#listado .listaColores{
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+}
+
+
+#listado .listaColores i:nth-child(1){
+    background-color: green;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+}
+
+#listado .listaColores i:nth-child(2){
+    background-color: red;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color:white;
+    border-radius: 50px;
+}
+
+.btn-editar{
+    background-color: rgb(29, 161, 29);
+}
+
+.btn-eliminar{
+    background-color: rgb(150, 34, 34);
+}
+
+#formulario{
+    width: 60%;
+}
